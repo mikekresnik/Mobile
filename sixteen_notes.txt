@@ -1,0 +1,440 @@
+Images
+Icons
+Fonts
+Colors
+text
+gradients
+Shadows
+Sizes (width/height)
+
+
+NAVBAR
+width: 360px
+height: 40px
+navbar icon: 40px x 40px
+navbar background:#acd373
+navbar icon background: #89a85c
+navbar shadow: 
+    color: #000000
+    opacity: 25% 
+    angle: 120
+    distance: 2px
+    size: 4px
+    
+SECTION 1 - "We Are..."
+total height from bottom of nav: 350px
+space from top: 125px
+
+background color: #9abd67
+Header
+font: SourceSansPro Bold
+font-size: 20px
+font color: #f7f7f7
+space between header and subheader: 17px
+
+Sub-Header
+font: DroidSerif Italic
+font-size: 13px
+font color: #f7f7f7
+
+Aarow
+space from sub-header: 57px
+space after arrow to bottom of Section 1: 113px
+
+SECTION 2 - "Who We Are"
+Section height: 500px
+background color: #f7f7f7
+space between top and iphone: 43px
+font: Source Sans Pro Regular
+
+space between iphone and "Who we are": 45px
+header: WHO WE ARE
+font: Source Sans Pro Regular
+font size: 18px
+font color: #454545
+
+copy:
+font: Source Sans Pro Regular
+font size: 13px
+font color: #454545
+
+button:
+size: 91px x 30px
+font: DroidSerif Italic
+font size: 11px
+font color: #acd373
+border color: #acd373
+border weight: 1px
+
+
+
+SECTION 3 (video placeholder)
+total height: 262px
+
+
+SECTION 4 - OUR SERVICES
+section height: 499px
+background color: #f7f7f7
+
+header
+font: Source Sans Regular
+font size: 18px
+color 1: #454545
+color 2: #acd373
+
+
+space between header and subheader: 15px
+
+subheader:
+font: DroidSerif
+font size: 12px
+color: #454545
+
+space between subheader and seperator: 14px
+
+service header:
+font: Source Sans Pro Bold
+font size: 14px
+
+
+service copy:
+font: Source Sans Pro Regular
+font size: 13px
+
+paintbrush icon: 36x61
+mobile icon: 35x59
+monitor icon: 42x48
+
+button:
+size: 91px x 30px
+font: DroidSerif Italic
+font size: 11px
+font color: #acd373
+border color: #acd373
+border weight: 1px
+
+
+SECTION 5 - MEET OUR TEAM
+border around team member photo: 5px
+section height: 485px
+background color: #acd373
+
+top of section to top of header: 47px
+
+header:
+font: Source Sans Pro Regular
+font size: 18
+font color: #f7f7f7
+
+bottom of header to top of sub header: 14px
+
+Subheader:
+font: DroidSerif
+font-size: 12px
+font color: #f7f7f7
+
+bottom of subheader to top of separator: 14px
+
+separator to top of photo: 50px
+
+team member box:
+radius: 5px
+top color; #f7f7f7
+    top height : 130px
+bottom color: #ebebeb
+    bottom height: 52px
+    
+
+bottom of photo to top of member name: 37px
+    name:
+    font: Source Sans Pro Bold
+    font size: 14px
+    font color: #acd373
+ 
+bottom of name to title: 17px
+    font: DroidSerif Italic
+    font size: 12px
+    font color: #787878
+
+social media:
+    from top of box: 145px
+    img size: 23 x23
+    
+footer:
+    width: 66px
+    space between member box and footer: 60px
+    footer background color: #9abd67
+    font: Source Sans Pro Regular
+    font size: 13px
+    space between top of footer and top of text: 30px
+    
+    button:
+    space between top of footer to top of button: 18px
+    space on the left of the button: 230px
+    color: #f7f7f7
+    border stroke: 1px
+    button size: 100 x 30
+    font: DroidSerif Italic
+    font size: 11px
+    font color: #f7f7f7
+    
+
+SECTION 6 - OUR RECENT WORKS
+section height: 520px
+background color: #f7f7f7
+
+top of section to title: 53px
+color 1: #454545
+color 2: #acd373
+bottom of title to top of sub header: 14px
+bottom of sub header to top of separator: 13px
+separator to top of image: 50px
+
+screenshot description box:
+color: #ebebeb
+space between screenshot and work title: 25px
+space between title and sub title: 11px
+width: 300px
+height: 80px
+
+button:
+space betwwen button and description box: 45px
+size: 100 x 30
+border color: #acd373
+stroke wight: 1px
+font: DroidSerif Italic
+font size: 11px
+
+SECTION FOOTER:
+height between button and section footer: 47px
+footer height: 80px
+
+studio img:
+from top of footer: 32px
+from left side: 31px
+
+themeforest img:
+from top of footer: 27px
+from left of sudio img: 26px or 194 px from left side of footer
+
+
+SECTION 7 - TESTIMONIALS
+section height: 562px
+overlay color: #343b45
+overlay opacity: 70%
+
+quote box:
+space from top: 61px
+font: DroidSerif regular
+font size: 12px
+font color: #f7f7f7
+space from left of section: 30px
+
+quote:
+space from left of inside of quote box: 10px
+
+quoteblock img: 
+space from left of inside of quote box: 253px
+
+client name:
+font: Source Sans Pro Bold
+font size: 14px
+font color: #acd373
+space between quote lock and top of section: 180 px
+space from left of wection: 31px
+
+space between name and site: 18px
+
+client site:
+font: DroidSerif Italic
+font size: 12px
+font color: #f7f7f7
+
+
+
+carousel indicator:
+    space from top: 284px
+    
+space between carousel and tesimony title: 70px
+font: Source Sans Pro Regular
+font size: 18px
+font color: #f7f7f7
+
+left space for title: 29px
+left space for testimony copy: 31px
+space betwwen testiomny title and copy: 25px
+
+testimony copy:
+font: Source Sans Pro Regular
+font size: 13px
+font color: #f7f7f7
+
+space between copy and button: 28px
+
+testimony button:
+    size: 120x30
+    border stroke: 1px
+    border color: #acd373
+    font: DroidSerif Italic
+    font size: 11px
+    font color: #acd373
+
+
+    
+
+SECTION 8 - BLOG
+section height: 674px
+
+space between top of section and title: 54px
+title:
+font: Source Sans Pro Regular
+font size: 18px
+font color: #454545
+
+space beteen title and sub title: 14px
+subtitle:
+font: DroidSerif
+font size: 12px
+font color: #454545
+
+space between subheader and separator: 13px
+
+space between separator and top picture: 36px
+
+pictures:
+left gutter: 14px
+middle gutter: 14px
+right gutter: 13px
+bottom gutter: 16px (between top and second rows only)
+
+picture size: 160x97
+
+blog icon background stroke: 
+weight: 5px
+position: outside
+color: #ebebeb
+
+blog description top:
+color: #ebebeb
+width: 160px
+height: 72px
+title:
+font: Source Sans Pro Semibold
+font size: 10.93px
+font color: #454545
+
+
+blog description bottom: 
+color: #acd373
+width: 160px
+height: 30px
+font: DroidSerif Italic
+font size: 8.33px
+font color: #f7f7f7
+
+space after blog description bottom: 57px
+
+section bottom: 360 x 62
+
+newsletter copy space from top of "section bottom": 29px
+space from left side of section for newsletter copy: 13px
+font: Source Sans Pro Regular
+font size: 12px
+font color: #f7f7f7
+
+newsletter form:
+    space between newsletter copy and form: 11px
+    space from top of section: 19px
+    field font: DroidSerif Italic
+    font size: 8.54px
+    font color: #f7f7f7
+    
+    outline:
+    color: #f7f7f7f
+    width: 111px
+    height: 25px
+    
+    button: 
+    color: #f7f7f7
+    width: 30px
+    height: 25px
+    
+
+
+
+SECTION 9 - CONTACT
+section height: 579px
+map height: 129px
+background color: #acd373
+
+space between map and title: 45px
+title:
+    FONT: Source Sans Pro Regular
+    font size: 17.9px (all caps)
+    font color: #f7f7f7
+    
+    
+
+space between title and separator: 11px
+
+space between separator and top of field title: 38px
+
+field title:
+font: Source Sans Pro Regular
+font size: 14px
+font color: #f7f7f7
+
+space between field title and text box: 9px
+
+Space between text box and field title: 22px
+
+field text box (name and email):
+color: #9abd67
+padding top: 14px
+padding left: 13px
+width: 301px
+height: 28px
+font: DroidSerif Italic
+font size: 11px
+font color: #f7f7f7
+
+field message box:
+color: #9abd67
+padding top: 14px
+padding left: 13px
+width: 302px
+height: 84px
+font: DroidSerif Italic
+font size: 11px
+font color: #f7f7f7
+
+padding left for drag icon: 293px
+padding top for drag icon: 74px
+
+space between message box and send button: 26px
+
+send button:
+color: #9abd67
+width: 220px
+height: 32px
+
+font: DroidSerif Italic
+font color: #f7f7f7
+font size: 12px
+
+
+
+SECTION 10 - FOOTER
+height: 100px
+background color: #9abd67
+
+icon color: #e0e8d3
+
+font: Source Sans Pro Regular
+font size: 13px
+font color: #f7f7f7
+
+space between top of footer to top of icons: 29px
+space betwwen each icon: 6px
+sapce between bottom of icons and top of copyright: 17px
+
