@@ -41,6 +41,12 @@ Aarow
 space from sub-header: 57px
 space after arrow to bottom of Section 1: 113px
 
+
+
+
+
+
+
 SECTION 2 - "Who We Are"
 Section height: 500px
 background color: #f7f7f7
@@ -60,16 +66,23 @@ font color: #454545
 
 button:
 size: 91px x 30px
-font: DroidSerif Italic
+font: tt
 font size: 11px
 font color: #acd373
 border color: #acd373
 border weight: 1px
 
 
-
 SECTION 3 (video placeholder)
 total height: 262px
+
+
+
+
+
+
+
+
 
 
 SECTION 4 - OUR SERVICES
@@ -90,11 +103,10 @@ font: DroidSerif
 font size: 12px
 color: #454545
 
-space between subheader and seperator: 14px
+space between subheader and seperator: 13px
 
 service header:
-font: Source Sans Pro Bold
-font size: 14px
+t
 
 
 service copy:
@@ -112,6 +124,25 @@ font size: 11px
 font color: #acd373
 border color: #acd373
 border weight: 1px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 SECTION 5 - MEET OUR TEAM

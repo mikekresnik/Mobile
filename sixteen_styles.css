@@ -8,12 +8,12 @@ body {
 
 .sr-only {
         text-indent: 9999em;
-    overflow: hidden;
+        overflow: hidden;
 }
 
 
 
-
+/*NAVIGATION*/
 
 nav {
     background-color: #acd373;
@@ -47,10 +47,13 @@ nav {
     float: right;    
 }
 
+/* SECTION 1 -- INTRO */
+
+
 .intro {
     background-color: #9abd67;
     color: #f7f7f7;
-    background-image: url("img/siluet.png");
+    
     
 }
 
@@ -80,8 +83,185 @@ h2 {
     background-image: url("img/arrow_down.png");
     width: 25px;
     height: 14px;
-    display: block;
+    display: inline-block;
     margin-top: 57px;
     
 }
 
+.siluet {
+    background-image: url("img/siluet.png");
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 69px;
+    margin-top: 46px;
+    display: block;
+    
+}
+
+/* SECTION 2 -- WHO WE ARE */
+
+.whoWeAre > div {
+    text-align: center;
+    padding-top: 43px;
+}
+
+.whoWeAre {
+    background-color: #f7f7f7 ;
+    font-color: #454545;
+
+}
+
+.iphone {
+    background-image: url("img/iphone.png");
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 207px;
+    display: inline-block;
+}
+
+.whoWeAre .Icon {
+    background-image: url("img/icon_man449.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 30px;
+    margin-left: 29px;
+    margin-top: 36px;
+    vertical-align: text-bottom;
+}
+
+.whoWeAre h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-left: 13px;
+    display: inline;
+}
+
+.whoWeAre p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    margin-left: 29px;
+    margin-top: 23px;
+    
+}
+
+.whoWeAre a.button {
+    color: #acd373;
+    font-family: "DroifSerif", serif;
+    font-size: 11px;
+    font-style: italic;
+    text-decoration: none;
+    border: 1px solid #acd373;
+    padding: 10px 12px;
+    display: inline-block;
+    margin-top: 28px;
+    margin-left: 29px;
+    margin-bottom: 27px;
+}
+
+
+/* SECTION 3 -- VIDEO PLAYER */
+
+.videoPlayer {
+ 
+}
+
+
+/* SECTION 4 -- OUR SERVICES */
+
+
+
+.ourServices {
+    background-color: #f7f7f7 ;
+    font-color: #454545;
+}
+
+.ourServices h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-left: 13px;
+    display: block;
+    text-align: center;
+    padding-top: 43px;
+}
+.ourServices h3 span {
+    color: #acd373;
+}
+
+.ourServices h4 {
+    margin-top: 14px;
+    font-family: "DroidSerif", serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #454545;
+    text-align: center;
+    display: block;
+}
+
+.ourServices .blackSep {
+    margin-top: 13px;
+    background-image: url("img/separator_black.png");
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 7px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 31px;
+}
+
+.ourServices .Icon1 {
+    background-image: url("img/icon_paintbrush.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 36px;
+    height: 61px;
+    margin-left: 40px;
+    vertical-align: text-bottom;
+    
+}
+
+.ourServices .Icon2 {
+    background-image: url("img/icon_mobile221.png");
+ background-repeat: no-repeat;
+    display: block;
+    width: 35px;
+    height: 59px;
+    margin-left: 40px;
+    vertical-align: text-bottom;
+}
+
+.ourServices .Icon3 {
+    background-image: url("img/icon_monitor78.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 42px;
+    height: 48px;
+    margin-left: 40px;
+    vertical-align: text-bottom;
+}
+
+.ourServices h5 {
+    font-family: "Source Sans Pro", sans;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #acd373;
+    margin-left: 101px;
+    display: inline-block;
+}
+
+.ourServices p {
+    display: inline-block;
+    margin-left: 101px;
+}
+
+
+
+img {
+    display: block;
+}
