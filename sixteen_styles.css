@@ -185,7 +185,6 @@ h2 {
     font-size: 18px;
     font-weight: normal;
     text-transform: uppercase;
-    margin-left: 13px;
     display: block;
     text-align: center;
     padding-top: 43px;
@@ -196,7 +195,7 @@ h2 {
 
 .ourServices h4 {
     margin-top: 14px;
-    font-family: "DroidSerif", serif;
+    font-family: "Droid Serif", serif;
     font-size: 12px;
     font-weight: normal;
     color: #454545;
@@ -322,7 +321,7 @@ h2 {
 
 .ourServices a.button {
     color: #acd373;
-    font-family: "DroidSerif", serif;
+    font-family: "Droid Serif", serif;
     font-size: 11px;
     font-style: italic;
     text-decoration: none;
@@ -346,7 +345,6 @@ h2 {
     font-weight: normal;
     color: #f7f7f7;
     text-transform: uppercase;
-    margin-left: 13px;
     display: block;
     text-align: center;
     padding-top: 47px;
@@ -354,7 +352,7 @@ h2 {
 
 .ourTeam h4 {
     margin-top: 14px;
-    font-family: "DroidSerif", serif;
+    font-family: "Droid Serif", serif;
     font-size: 12px;
     color: #f7f7f7;
     font-weight: normal;
@@ -370,8 +368,6 @@ h2 {
     background-position: center center;
     height: 7px;
 }
-
-
 
 .third-left {
     display: inline-block;
@@ -416,8 +412,7 @@ h2 {
     font-weight: normal;
     font-size: 12px;
     color: #787878;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 img.border {
@@ -491,32 +486,577 @@ div.footer {
 
 .half-button {
 	display: inline-block;
-	font-family: "Source Sans Pro", sans-serif;
-    font-size: 13px;
+	font-family: "Droid Serif", serif;
+    font-size: 11px;
     color: #f7f7f7;
     font-weight: normal;
 	margin-left: 42px;
 }
 
-.buttonCenter {
-    text-align: center;
-}
-
 .ourTeam a.button {
     color: #f7f7f7;
-    font-family: "DroidSerif", serif;
+    font-family: "Droid Serif", serif;
     font-size: 11px;
     font-style: italic;
     text-decoration: none;
     border: 1px solid #f7f7f7;
     padding: 10px 12px;
     display: inline-block;
-    margin-top: 18px;
+    margin-top: 18px;	
+}
+
+/* SECTION 6 -- OUR RECENT WORKS*/
+
+.ourWorks {
+    background-color: #f7f7f7 ;
+
+}
+
+.ourWorks h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding-top: 43px;
+}
+.ourWorks h3 span {
+    color: #acd373;
+}
+
+.ourWorks h4 {
+    margin-top: 14px;
+    font-family: "Droid Serif", serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #454545;
+    text-align: center;
+    display: block;
+}
+
+.ourWorks .blackSep {
+    margin-top: 13px;
+    margin-bottom: 31px;
+    background-image: url("img/separator_black.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 7px;
+}
+
+.ourWorks img {
+	margin-left: 31px;
+}
+
+.devo-box {
+    display: inline-block;
+    width: 298px;
+    height: 80px;
+    background-color: #ebebeb;
+    margin-left: 31px;
+	margin-top: -3px;
+}
+
+.ourWorks h5 {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #454545;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.ourWorks h6 {
+	font-family: "Droid Serif", serif;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 12px;
+	color: #454545;
+	text-align: center;
+	margin-top: 8px;
+}
+
+.ourWorks a.button {
+    color: #acd373;
+    font-family: "Droid Serif", serif;
+    font-size: 11px;
+    font-style: italic;
+    text-decoration: none;
+    border: 1px solid #acd373;
+    padding: 10px 12px;
+    display: inline-block;
+    margin-top: 45px;	
+}
+
+.ourWorks .footer {
+	margin-top: 47px;
+	height: 80px;
+	background-color: #ebebeb;
+}
+
+.half-envato {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 32px;
+}
+
+.half-themeforest {
+	display: inline-block;
+	margin-top: 27px;
+}
+
+
+/* SECTION 7 -- TESTIMONIALS*/
+
+.testimony {
+	background-image: url("img/testimony_background.jpg");
+	overflow: auto;
+}
+
+.quotebox {
+	background-image: url("img/testimony_quotebox.png");
+	width: 300px;
+	height: 105px;
+	background-repeat: no-repeat;
+	margin-left: 30px;
+	margin-top: 61px;
+}
+
+.testimony p.quote {
+	padding-left: 10px;
+	padding-top: 19px;
+	padding-right: 10px;
+	font-family: "Droid Serif", serif;
+	font-weight: normal;
+	font-size: 12px;
+	color: #ebebeb;
+}
+
+.quotations {
+	position: absolute;
+	background-image:url("img/blockquotes.png");
+	width: 19px;
+	height: 14px;
+	margin-top: 55px;
+	margin-left: 254px;
+}
+
+.client {
 	
+}
+
+.clientBeard {
+	position: relative;
+	background-image: url("img/bearded_client.png");
+	background-repeat: no-repeat;
+	width: 182px;
+	height: 82px;
+	margin-left: 31px;
+	margin-top: 13px;
+	
+}
+
+.clientBeard h3 {
+	position: absolute;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: bold;
+	font size: 14px;
+	text-transform: uppercase;
+	color: #acd373;
+	margin-left: 104px;
+	margin-top: 22px;
+}
+
+.clientBeard h4 {
+	position: absolute;
+	font-family: "Droid Serif", serif;
+	font-weight: normal;
+	font-style: italic;
+	font size: 12px;
+	color: #f7f7f7;
+	margin-left: 104px;
+	margin-top: 47px;
+}
+
+.carousel {
+	display: block;
+	margin-top: 23px;
+	margin-left: 160px;
+	width: 40px;
+	height: 11px;
+}
+
+.testimony h5 {
+	margin-top: 70px;
+	margin-left: 29px;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #f7f7f7;
+}
+
+.testimony p.testimonial {
+	margin-top: 22px;
+	margin-left: 29px;
+	width: 290px;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+	color: #f7f7f7;
+}
+
+.testimony a.button {
+    color: #acd373;
+    font-family: "Droid Serif", serif;
+    font-size: 11px;
+    font-style: italic;
+    text-decoration: none;
+    border: 1px solid #acd373;
+    padding: 10px 13px;
+    display: inline-block;
+    margin-top: 23px;	
+	margin-bottom: 49px;
+	margin-left: 30px;
+}
+
+
+/* SECTION 8 -- BLOG */
+
+.blog {
+	background-color: #f7f7f7;
+	font-color: #454545;
+}	
+
+.blog h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding-top: 54px;
+}
+
+.blog h4 {
+    margin-top: 14px;
+    font-family: "Droid Serif", serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #454545;
+    text-align: center;
+    display: block;
+}
+
+.blog .blackSep {
+    margin-top: 13px;
+    margin-bottom: 31px;
+    background-image: url("img/separator_black.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 7px;
+}
+
+.blog h5 {
+	position: absolute;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 600;
+	font-size: 11px;
+	text-align: center;
+	margin-top: 11px;
+	width: 160px;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+.blog2 h5 {
+	margin-top: 5px;
+}
+
+.blog4 h5 {
+	margin-top: 5px;	
+}
+
+.row1 {
+	margin-top: 35px;
+	margin-left: 13px;
+	position: relative;
+}
+
+.blog1 {
+	display: inline-block;
+	width: 160px;
+	height: 170px;
+	background-color: #ebebeb;
+	
+}
+
+.blog2 {
+	display: inline-block;
+	margin-left: 13px;
+	width: 160px;
+	height: 170px;
+	background-color: #ebebeb;
+}
+
+.row2 {
+	margin-top: 35px;
+	margin-left: 13px;
+	position: relative;
+}
+
+.blog3 {
+	display: inline-block;
+	width: 160px;
+	height: 170px;
+	background-color: #ebebeb;
+}
+
+.blog4 {
+	display: inline-block;
+	margin-left: 13px;
+	width: 160px;
+	height: 170px;
+	background-color: #ebebeb;
 }
 
 
 
-.footer span {
-    margin-top: 27px;
+
+.blogIconBg {
+	postion: absolute;
+	margin-top: -20px;
+	margin-left: 60px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border: 5px solid #ebebeb;
+}
+
+.blogIcon1 {
+	position: absolute;
+	margin: 5px;
+	margin-top: -10px;
+	margin-left: 70px;
+}
+
+.blogIcon2 {
+	position: absolute;
+	margin: 5px;
+	margin-top: -10px;
+	margin-left: 74px;
+}
+
+.blogIcon3 {
+	position: absolute;
+	margin: 5px;
+	margin-top: -9px;
+	margin-left: 71.5px;
+}
+
+.blogIcon4 {
+	position: absolute;
+	margin: 5px;
+	margin-top: -9px;
+	margin-left: 71px;
+}
+
+.readMore {
+	position: relative;
+	width: 160px;
+	height: 30px;
+	background-color: #acd373;
+	margin-top: 46px;
+}
+
+.readMore a {
+	display: block;
+	font-family: "Droid Serif", serif;
+	font-style: italic;
+	font-size: 8.3px;
+	color: #f7f7f7;
+	margin-left: 59px;
+	padding-top: 11px;
+	text-decoration: none;
+}
+
+.newsletter {
+	background-color: #acd373;
+	margin-top: 57px;
+}
+
+.newsletter p {
+	display: inline-block;
+	font-family: "Source Sans Pro", sans-serif;
+    font-size: 12px;
+    color: #f7f7f7;
+    font-weight: normal;
+	margin-left: 10px;
+	margin-top: 26px;
+	vertical-align: text-bottom;
+}
+
+.emailForm {
+	display: inline-block;
+}
+
+.newsletter input {
+	border: 1px solid #f7f7f7;
+	background-color: transparent;
+	width: 108px;
+	height: 22px;
+	font-family: "Droid Serif", serif;
+    font-size: 8.5px;
+    color: #f7f7f7;
+    font-style: italic;
+	padding: 0;
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-left: 11px;
+	margin-bottom: 18px;
+	text-align: center;
+	vertical-align: text-top;
+}
+
+.send-button {
+	display: inline-block;
+	background-color: #f7f7f7;
+	background-image: url("img/newsletter_icon.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 30px;
+	height: 23.5px;
+	vertical-align: text-top;
+}
+
+/* SECTION 9 -- CONTACT */
+
+
+.contact {
+    background-color: #acd373;
+}
+
+	
+.contact h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #f7f7f7;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.contact h4 {
+    margin-top: 14px;
+    font-family: "Droid Serif", serif;
+    font-size: 12px;
+    color: #f7f7f7;
+    font-weight: normal;
+    text-align: center;
+    display: block;
+}
+
+.contact .whiteSep {
+    margin-top: 13px;
+    margin-bottom: 31px;
+    background-image: url("img/separator_white.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 7px;
+}
+
+.contact p {
+	margin-top: 36px;
+	margin-left: 30px;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #f7f7f7;
+}
+
+.contact p2 {
+	margin-top: 19px;
+	margin-left: 30px;
+	margin-bottom: 9px;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #f7f7f7;
+}
+
+.contact input {
+	border: 0;
+	background-color: #9abd67;
+	width: 287px;
+	height: 28px;
+	font-family: "Droid Serif", serif;
+    font-size: 11px;
+    color: #f7f7f7;
+    font-style: italic;
+	padding: 0;
+	padding-left: 13px;
+	margin-left: 30px;
+	margin-bottom: 19px;
+	margin-top: 9px;
+}
+
+.contact textarea {
+	border: 0;
+	background-color: #9abd67;
+	width: 287px;
+	height: 83px;
+	font-family: "Droid Serif", serif;
+    font-size: 11px;
+    color: #f7f7f7;
+    font-style: italic;
+	padding: 0;
+	padding-left: 13px;
+	padding-top: 10px;
+	margin-top: 9px;
+	margin-left: 30px;
+	margin-bottom: 18px;
+}
+
+input.contact-button {
+	display: inline-block;
+	text-align: center;
+	width: 220px;
+	height: 32px;
+	border: 0;
+	background-color: #9abd67;
+	font-family: "Droid Serif", serif;
+    font-size: 11px;
+    color: #f7f7f7;
+    font-style: italic;	
+	margin-left: 71px;
+	margin-bottom: 45px;
+	cursor: pointer;
+}
+
+
+/* SECTION 10 -- FOOTER */
+
+footer {
+	background-color: #9abd67;
+	height: 100px;
+}
+
+.social{
+	display: inline-block;
+	margin-left: 56px;
+	margin-top: 29px;
+}
+
+footer p {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+	color: #f7f7f7;
+	margin-top: 14px;
+	text-align: center;
 }
