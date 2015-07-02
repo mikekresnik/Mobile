@@ -186,6 +186,7 @@
 		background-image: url("img/separator_black.png");
 		background-repeat: no-repeat;
 		background-position: center center;
+		background-size: 125px 10px;
 		height: 10px;
 	}
 	
@@ -215,7 +216,6 @@
 		width: 283px;
 	}
 	
-	
 	.Icon2 {
 		width: 45px;
 		height: 75px;
@@ -231,8 +231,6 @@
 		 margin-left: 0px;
 		 margin-top: 0px;
 	}
-	
-	
 	
 	.Icon3 {
 		width: 72px;
@@ -251,11 +249,11 @@
 		 margin-top: 0px;
 	}
 	
-	
 	.description4, .description5, 
 	.description6, .p4, .p5, .p6, .Icon4, .Icon5, .Icon6 {
 			display: inline-block;
 		}
+	
 	.p4, .p5, .p6 {
 		font-size: 18px;
 		font-family: "Source Sans Pro", sans-serif;
@@ -265,8 +263,6 @@
 		margin-top: 17px;
 		width: 283px;
 	}
-	
-	
 	
 	.Icon4 {
 		width: 71px;
@@ -279,7 +275,6 @@
 		height: 78px;
 		margin-left: 14px;
 		margin-top: 90px;
-		
 	}
 
 	.description4 h5 {
@@ -294,6 +289,7 @@
 		margin-left: 15px;
 		margin-top: 90px;
 	}
+	
 	.description5 {
 		height: 78px;
 		margin-left: 14px;
@@ -305,7 +301,6 @@
 		 margin-left: 0px;
 		 margin-top: 0px;
 	}
-	
 	
 	.Icon6 {
 		width: 73px;
@@ -331,10 +326,36 @@
 		display: block;
 	}
 	
+	.ourServices a.button {
+		font-size: 18px;
+		padding: 16px 20px;
+		display: inline-block;
+		margin-top: 85px;
+		margin-bottom: 101px;
+	}
+
+/* SECTION 5 -- MEET OUR AMAZING TEAM */
 	
+	.ourTeam {
+
+	}
 	
+	.ourTeam h3 {
+		font-size: 30px;
+		padding-top: 101px;
+	}
 	
+	.ourTeam h4 {
+		margin-top: 24px;
+		font-size: 18px;
+	}
 	
+	.ourTeam .whiteSep {
+		margin-top: 23px;
+		margin-bottom: 89px;
+		background-size: 125px 10px;
+		color: transparent;
+	}
 	
 	
 	

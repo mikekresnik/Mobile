@@ -386,10 +386,10 @@ img.play {
 .ourTeam .whiteSep {
     margin-top: 13px;
     margin-bottom: 31px;
-    background-image: url("img/separator_white.png");
+    background-image: url("img/separator.png");
     background-repeat: no-repeat;
     background-position: center center;
-    height: 7px;
+	background-size: 76px 6px;
 }
 
 .third-left {
@@ -399,6 +399,47 @@ img.play {
     margin-left: 25px;
     margin-top: 100px;
 }
+
+.person {
+  background: white;
+  border-radius: 5px;
+  width: 200px;
+  height: 182px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 50px
+}
+.person > img {
+  margin-top: -30px;
+  border-radius: 40px;
+}
+
+.person > div {
+  background: grey;
+  height: 52px;
+  line-height: 52px;
+}
+.person > div > img {
+  vertical-align: middle;
+}
+
+
+/* FIXING "OUR TEAM" and ADDING THE OTHER TEAM MEMBERS TO THE HTML AND DESKTOP CSS
+
+1) Transfer over styles and formatting to Desktop.css
+
+2) Capture high-rez photos from desktop PSD
+
+3) Adjust sizes in mobile and desktop css files
+
+4) 
+
+
+
+
+
+*/
 
 .third-member {
     display: inline-block;
