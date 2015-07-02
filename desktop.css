@@ -1,0 +1,345 @@
+@media all and (min-width: 700px) {
+    body {
+        min-width: 935px;
+    }
+    
+	
+	
+/*NAVIGATION*/
+	
+    .toggle {
+        display: none;
+    }
+    
+    p, .content {
+        max-width: 1172px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+	
+    
+    
+    nav {
+        height: 106px;
+        line-height: 106px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.06);
+    }
+    nav .main {
+        display: inline-block;
+        float: right;
+    }
+    nav .main a {
+        color: #f7f7f7;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin: 0 14px;
+    }
+    nav .main a.active,
+    nav .main a:hover {
+        border-bottom: 3px solid #f7f7f7;
+    }
+    nav .logo {
+        margin-top: 20px;
+    }
+    nav .logo img {
+        height: auto;
+    }
+	
+/* SECTION 1 -- INTRO */
+    
+    .intro {
+        background-size: auto auto;
+        height: 700px;
+    }
+    .intro h1 {
+        font-size: 48px;
+        font-weight: 900;
+    }
+    .intro h2 {
+        font-size: 24px;
+    }
+    .intro > div {
+        padding-top: 230px;
+    }
+    .arrow {
+        margin-top: 132px;
+    }
+    .arrow img {
+        height: auto;
+	}
+	
+/* SECTION 2 -- WHO WE ARE */
+	
+	.whoWeAre {
+		background-color: #f7f7f7;
+		height: 574px;
+	}
+	
+	.whoWeAre div {
+		padding-top: 0px;
+	}
+	
+	div.iphone {
+		background-size: 150px 393px;
+		width: 150px;
+		height: 393px;
+		display: block;
+		position: absolute;
+		margin-top: 91px;
+		margin-left: 907px;
+	}
+	
+	
+	.whoWeAre .Icon {
+		background-size: 47px 55px;
+		width: 47px;
+		height: 55px;
+		margin-top: 117px;
+		margin-left: 0px;
+	}
+	
+	.whoWeAre h3 {
+		font-family: "Source Sans Pro", sans-serif;
+		font-size: 30px;
+		font-weight: normal;
+		text-transform: uppercase;
+		margin-left: 23px;
+	}
+	
+	.whoWeAre p, p2 {
+		display: block;
+		width: 767px;
+		font-family: "Source Sans Pro", sans-serif;
+		font-weight: normal;
+		font-size: 18px;
+		margin-left: 0px;
+		margin-top: 23px;
+		margin-right: 29px;
+		line-height: 1.3em;
+	}
+	
+	.whoWeAre p2 span {
+		display: inline;
+	}
+
+	.whoWeAre a.button {
+		color: #acd373;
+		font-family: "DroifSerif", serif;
+		font-size: 18px;
+		font-style: italic;
+		text-decoration: none;
+		border: 1px solid #acd373;
+		padding: 13px 21px;
+		display: inline-block;
+		margin-top: 46px;
+		margin-bottom: 111px;
+		margin-left: 0px;
+	}
+	
+/* SECTION 3 -- VIDEO */
+	
+	.videoPlayer {
+		height: 521px;
+		background-image: url("img/video_bg.png");
+		background-position: center 0;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	
+	img.play {
+		max-width: 136px;
+		margin-top: 191px;
+	}
+	
+	
+/* SECTION 4 -- OUR SERVICES */
+	
+	.ourServices h3 {
+		font-family: "Source Sans Pro", sans-serif;
+		font-size: 30px;
+		font-weight: normal;
+		text-transform: uppercase;
+		display: block;
+		text-align: center;
+		padding-top: 100px;
+	}
+	.ourServices h3 span {
+		color: #acd373;
+	}
+
+	.ourServices h4 {
+		margin-top: 24px;
+		font-family: "Droid Serif", serif;
+		font-size: 18px;
+		font-weight: normal;
+		color: #454545;
+		text-align: center;
+		display: block;
+	}
+
+	.ourServices .blackSep {
+		margin-top: 23px;
+		margin-bottom: 89px;
+		background-image: url("img/separator_black.png");
+		background-repeat: no-repeat;
+		background-position: center center;
+		height: 10px;
+	}
+	
+	
+	.Icon1 {
+		width: 47px;
+		height: 78px;
+		margin-left: 0px;
+	}
+
+	.description1 {
+		height: 78px;
+		margin-left: 29px;
+		
+	}
+
+	.description1 h5 {
+		 font-size: 20px;
+		 margin-left: 0px;
+		 margin-top: 0px;
+	}
+
+	.p1, .p3 {
+		font-size: 18px;
+		margin-left: 0px;
+		margin-top: 17px;
+		width: 283px;
+	}
+	
+	
+	.Icon2 {
+		width: 45px;
+		height: 75px;
+		margin-left: 26px;
+	}
+	.description2 {
+		height: 78px;
+		margin-left: 29px;
+	}
+	
+	.description2 h5 {
+		 font-size: 20px;
+		 margin-left: 0px;
+		 margin-top: 0px;
+	}
+	
+	
+	
+	.Icon3 {
+		width: 72px;
+		height: 74px;
+		margin-left: 26px;
+	}
+	
+	.description3 {
+		height: 78px;
+		margin-left: 29px;
+	}
+	
+	.description3 h5 {
+		 font-size: 20px;
+		 margin-left: 0px;
+		 margin-top: 0px;
+	}
+	
+	
+	.description4, .description5, 
+	.description6, .p4, .p5, .p6, .Icon4, .Icon5, .Icon6 {
+			display: inline-block;
+		}
+	.p4, .p5, .p6 {
+		font-size: 18px;
+		font-family: "Source Sans Pro", sans-serif;
+		font-style: 400;
+		color: #454545;
+		margin-left: 0px; 
+		margin-top: 17px;
+		width: 283px;
+	}
+	
+	
+	
+	.Icon4 {
+		width: 71px;
+		height: 76px;
+		margin-left: -10px;
+		margin-top: 90px;
+	}
+
+	.description4 {
+		height: 78px;
+		margin-left: 14px;
+		margin-top: 90px;
+		
+	}
+
+	.description4 h5 {
+		 font-size: 20px;
+		 margin-left: 0px;
+		 margin-top: 0px;
+	}
+	
+	.Icon5 {
+		width: 71px;
+		height: 52px;
+		margin-left: 15px;
+		margin-top: 90px;
+	}
+	.description5 {
+		height: 78px;
+		margin-left: 14px;
+		margin-top: 90px;
+	}
+	
+	.description5 h5 {
+		 font-size: 20px;
+		 margin-left: 0px;
+		 margin-top: 0px;
+	}
+	
+	
+	.Icon6 {
+		width: 73px;
+		height: 63px;
+		margin-left: 30px;
+		margin-top: 90px;
+	}
+	
+	.description6 {
+		height: 78px;
+		margin-left: 25px;
+		margin-top: 90px;
+	}
+	
+	.description4 h5, .description5 h5, .description6 h5 {
+		font-family: "Source Sans Pro", sans-serif;
+     	font-weight: bold;
+		text-transform: uppercase;
+     	color: #acd373;
+		font-size: 20px;
+		margin-left: 0px;
+		margin-top: 0px;
+		display: block;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+

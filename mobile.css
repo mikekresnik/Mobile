@@ -2,8 +2,6 @@
 
 body {
     font-size: 16px;
-    width: 360px;
-    margin: 0 auto; /* Centers stuff only if you have a width*/
 }
 
 .sr-only {
@@ -20,21 +18,22 @@ nav {
     height: 40px;
     line-height: 40px;
     box-shadow: 2px 2px 4px rgba(0,0,0,0.06);
-    
+	position: relative;
 }
 
-
+nav .main {
+	display: none;
+}
 
 .logo {
-    background-image: url("img/Sixteen_logo.png");
-    width: 70px;
-    height: 23px;
-    text-indent: 9999em;
-    overflow: hidden;
     display: inline-block;
     vertical-align: top;
     margin-top: 8px;
     margin-left: 30px;
+}
+
+.logo img {
+	height: 25px;
 }
 
 .toggle {
@@ -49,18 +48,17 @@ nav {
     float: right;    
 }
 
-nav .main {
-		display: none;
-	}
-
 /* SECTION 1 -- INTRO */
 
 
 .intro {
     background-color: #9abd67;
+	background-image: url("img/siluet.png");
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: auto 85px;
     color: #f7f7f7;
-    
-    
+	height: 350px;
 }
 
 .intro > div {
@@ -68,7 +66,7 @@ nav .main {
     padding-top: 125px;
 }
 
-h1 {
+.intro h1 {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 20px;
     color: #f7f7f7;
@@ -76,7 +74,7 @@ h1 {
     text-transform: uppercase;
 }
 
-h2 {
+.intro h2 {
     font-family: "Droid Serif", serif;
     font-style: italic;
     font-size: 13px;
@@ -86,48 +84,43 @@ h2 {
 }
 
 .arrow {
-    background-image: url("img/arrow-down.png");
-    width: 25px;
-    height: 14px;
     display: inline-block;
     margin-top: 57px;
-    
 }
 
-.siluet {
-    background-image: url("img/siluet.png");
-    background-repeat: no-repeat;
-    width: 360px;
-    height: 69px;
-    margin-top: 46px;
-    display: block;
-    
+.arrow img {
+    height: 14px;
 }
+
+
 
 /* SECTION 2 -- WHO WE ARE */
 
 .whoWeAre > div {
-    text-align: center;
-    padding-top: 43px;
+	padding-top: 43px;
 }
 
 .whoWeAre {
-    background-color: #f7f7f7 ;
-    font-color: #454545;
-
+    background-color: #f7f7f7;
+    color: #454545;
 }
 
-.iphone {
+div.iphone {
     background-image: url("img/iphone.png");
     background-repeat: no-repeat;
+	background-size: 78px 207px;
     width: 78px;
     height: 207px;
-    display: inline-block;
+	text-align: center;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .whoWeAre .Icon {
     background-image: url("img/icon_man449.png");
     background-repeat: no-repeat;
+	background-size: 25px 30px;
     display: inline-block;
     width: 25px;
     height: 30px;
@@ -151,8 +144,13 @@ h2 {
     font-size: 13px;
     margin-left: 29px;
     margin-top: 23px;
-    
+	margin-right: 29px;
+	line-height: 1.3em;
 }
+
+.whoWeAre p2 span {
+		display: none;
+	}
 
 .whoWeAre a.button {
     color: #acd373;
@@ -163,7 +161,7 @@ h2 {
     border: 1px solid #acd373;
     padding: 10px 12px;
     display: inline-block;
-    margin-top: 28px;
+   	margin-top: 28px;
     margin-left: 29px;
     margin-bottom: 27px;
 }
@@ -172,7 +170,20 @@ h2 {
 /* SECTION 3 -- VIDEO PLAYER */
 
 .videoPlayer {
- 
+	height: 261px;
+	width: 100%;
+	text-align: center;
+	background-image: url("img/video_bg.png");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+img.play {
+	max-width: 68px;
+	margin-top: 97px;
+	
+
 }
 
 
@@ -182,7 +193,7 @@ h2 {
 
 .ourServices {
     background-color: #f7f7f7 ;
-    font-color: #454545;
+    color: #454545;
 
 }
 
@@ -215,6 +226,7 @@ h2 {
     background-image: url("img/separator_black.png");
     background-repeat: no-repeat;
     background-position: center center;
+	background-size: 76px 6px;
     height: 7px;
 }
 
@@ -247,7 +259,7 @@ h2 {
 
 .p1 {
    font-family: "Source Sans Pro", sans-serif;
-    font-style: normal;
+    font-style: 400;
     font-size: 13px;
     color: #454545;
     display: block;
@@ -312,7 +324,7 @@ h2 {
 
 .p3 {
    font-family: "Source Sans Pro", sans-serif;
-    font-style: normal;
+    font-style: 400;
     font-size: 13px;
     color: #454545;
     display: block;
@@ -320,6 +332,11 @@ h2 {
     margin-top: 13px;
     width: 225px;
 }
+
+.description4, .description5, .description6, .p4, .p5, .p6, .Icon4, .Icon5, .Icon6  {
+	display: none;
+}
+
 
 .buttonCenter {
     text-align: center;
