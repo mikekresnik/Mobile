@@ -2,10 +2,8 @@
     body {
         min-width: 935px;
     }
-    
-	
-	
-/*NAVIGATION*/
+
+	/*NAVIGATION*/
 	
     .toggle {
         display: none;
@@ -16,9 +14,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-	
-    
-    
+
     nav {
         height: 106px;
         line-height: 106px;
@@ -92,7 +88,6 @@
 		margin-left: 907px;
 	}
 	
-	
 	.whoWeAre .Icon {
 		background-size: 47px 55px;
 		width: 47px;
@@ -154,7 +149,6 @@
 		margin-top: 191px;
 	}
 	
-	
 /* SECTION 4 -- OUR SERVICES */
 	
 	.ourServices h3 {
@@ -189,7 +183,6 @@
 		background-size: 125px 10px;
 		height: 10px;
 	}
-	
 	
 	.Icon1 {
 		width: 47px;
@@ -359,8 +352,8 @@
 	}
 	
 	.ourTeam .arrow-left {
-		margin-right: 0px;
-		margin-top: 55px;
+		margin-left: -682px;
+		margin-top: 191px;
 		width: auto;
 	}
 
@@ -372,8 +365,8 @@
 	.ourTeam .arrow-right {
 		display: inline-block;
 		vertical-align: top;
-		margin-left: 0px;
-		margin-top: 55px;
+		margin-left: 650px;
+		margin-top: 191px;
 		width: auto;
 	}
 
@@ -393,6 +386,11 @@
 		margin-right: 30px;
 	} 
 
+	div .person2:nth-of-type(4) {
+		margin-right: 0px;
+	
+	} 
+	
 	.person1 > img {
 		margin-top: -70px;
 		border-radius: 40px;
@@ -406,11 +404,6 @@
 	}
 	
 	img.border {
-  /*border-radius.com 
-  1. Add border first
-  2. Get image height
-  3. image height + border top and bottom height / 2 = Border radius 
-  */
     -webkit-border-radius: 75px;
     -moz-border-radius: 75px;
     border-radius: 75px;
@@ -420,7 +413,6 @@
 		margin-top: 30px;
 		font-size: 20px;
 	}
-	
 	
 	.person2 h5 {
 		margin-top: 32px;
@@ -452,14 +444,14 @@
 		background: #ebebeb;
 		height: 70px;
 		line-height: 70px;
-		margin-top: 19px;
+		margin-top: 30px;
 	}
 	
 	.person2 > div {
 		background: #ebebeb;
 		height: 70px;
 		line-height: 70px;
-		margin-top: 19px;
+		margin-top: 30px;
 	}
 	
 	.person1 > div > img {
@@ -476,6 +468,115 @@
 		margin-right: 10px;
 	}
 
+	div.footer {
+		margin-top: 104px;
+		height: 110px;
+		text-align: center;
+		vertical-align: middle;
+	}
+	
+	.half-text {
+		margin-top: 51px;
+		margin-right: 47px;
+		margin-left: 0px;
+		font-size: 18px;
+	}
+	
+	.half-button {
+		margin-left: 0px;
+	}
+	
+	.ourTeam a.button {
+		font-size: 18px;
+	}
+	
+/* SECTION 6 -- OUR RECENT WORKS*/
+	
+	.ourWorks {
+		
+	}
+	
+	.ourWorks h3 {
+		font-size: 30px;
+		padding-top: 100px;
+	}
+	
+	.ourWorks h4 {
+		margin-top: 24px;
+		font-size: 18px;
+	}
+	
+	.ourWorks .blackSep {
+		margin-top: 23px;
+		background-image: url("img/separator_black.png");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 125px 10px;
+		height: 10px;
+	}
+	
+	.ourWorks h5 {
+		font-size: 18px;
+		color: #454545;
+		margin-top: 26px;
+	}
+
+	.ourWorks h6 {
+		font-size: 16px;
+		margin-top: 13px;
+	}
+	
+	.ourWorks img {
+		width: 369px;
+	}
+	
+	.devo-box {
+		display: inline-block;
+		width: 369px;
+		height: 99px;
+		background-color: #ebebeb;
+	}
+
+	.ourWorks a.button {
+		font-size: 18px;
+		padding: 12px 30px;
+		display: inline-block;
+		margin-top: 80px;
+		margin-bottom: 73px;
+	}
+	
+	.ourWorks .footer {
+		height: 119px;
+	}
+
+	img.client {
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 40px;
+		width: auto;
+		height: auto;
+	}
+	
+	span.desktop-clients {
+		display: inline-block;
+	}
+	
+	img .desktop-clients {
+		margin-left: 50px;
+	}
+	
+
+	
+	div img.client:nth-of-type(1) {
+		margin-left: 26px;
+	}
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

@@ -386,18 +386,20 @@ img.play {
 
 .ourTeam .whiteSep {
     margin-top: 13px;
-    margin-bottom: 31px;
+    margin-bottom: 81px;
     background-image: url("img/separator.png");
     background-repeat: no-repeat;
     background-position: center center;
 	background-size: 76px 6px;
 	color: transparent;
+	line-height: 7px;
 }
 
 .ourTeam .arrow-left {
+	position: absolute;
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 28px;
+	margin-left: -149px;
 	margin-top: 55px;
 	width: auto;
 }
@@ -411,9 +413,10 @@ img.play {
 } 
 
 .ourTeam .arrow-right {
+	position: absolute;
     display: inline-block;
 	vertical-align: top;
-	margin-left: 28px;
+	margin-left: 128px;
 	margin-top: 55px;
 	width: auto;
 }
@@ -492,7 +495,6 @@ div.footer {
 
 .half-text {
 	display: inline-block;
-	
 	font-family: "Source Sans Pro", sans-serif;
     font-size: 13px;
     color: #f7f7f7;
@@ -525,6 +527,7 @@ div.footer {
 
 .ourWorks {
     background-color: #f7f7f7 ;
+	text-align: center;
 
 }
 
@@ -534,7 +537,6 @@ div.footer {
     font-weight: normal;
     text-transform: uppercase;
     display: block;
-    text-align: center;
     padding-top: 43px;
 }
 .ourWorks h3 span {
@@ -547,7 +549,6 @@ div.footer {
     font-size: 12px;
     font-weight: normal;
     color: #454545;
-    text-align: center;
     display: block;
 }
 
@@ -557,11 +558,12 @@ div.footer {
     background-image: url("img/separator_black.png");
     background-repeat: no-repeat;
     background-position: center center;
-    height: 7px;
+	background-size: 76px 6px;
+    height: 6px;
 }
 
 .ourWorks img {
-	margin-left: 31px;
+	width: 298px;
 }
 
 .devo-box {
@@ -569,7 +571,6 @@ div.footer {
     width: 298px;
     height: 80px;
     background-color: #ebebeb;
-    margin-left: 31px;
 	margin-top: -3px;
 }
 
@@ -609,17 +610,25 @@ div.footer {
 	margin-top: 47px;
 	height: 80px;
 	background-color: #ebebeb;
+	text-align: center;
+	vertical-align: middle;
 }
 
-.half-envato {
+img.client {
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 32px;
+	width: 137px;
+	margin-left: 26px;
 }
 
-.half-themeforest {
-	display: inline-block;
-	margin-top: 27px;
+
+div img.client:nth-of-type(1) {
+		margin-left: 0px;
+	}
+
+span.desktop-clients {
+	display: none;
 }
 
 
