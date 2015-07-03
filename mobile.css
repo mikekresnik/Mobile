@@ -528,7 +528,14 @@ div.footer {
 .ourWorks {
     background-color: #f7f7f7 ;
 	text-align: center;
+}
 
+.worksRow1 {
+	display: none;
+}
+
+.worksRow2 > .worksDef-lowMid, .worksDef-lowRight, .worksRow2 img.left {
+	display: none;
 }
 
 .ourWorks h3 {
@@ -632,7 +639,7 @@ span.desktop-clients {
 }
 
 
-/* SECTION 7 -- TESTIMONIALS*/
+/* SECTION 7 -- TESTIMONIALS */
 
 .testimony {
 	background-image: url("img/testimony_background.jpg");
