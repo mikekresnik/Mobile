@@ -642,8 +642,16 @@ span.desktop-clients {
 /* SECTION 7 -- TESTIMONIALS */
 
 .testimony {
-	background-image: url("img/testimony_background.jpg");
-	overflow: auto;
+	background-image: url("img/testimony_background_full.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: -180px;
+	overflow: hidden;
+}
+
+
+.profile2 {
+	display: none;
 }
 
 .quotebox {
@@ -651,6 +659,7 @@ span.desktop-clients {
 	width: 300px;
 	height: 105px;
 	background-repeat: no-repeat;
+	background-size: 300px 105px;
 	margin-left: 30px;
 	margin-top: 61px;
 }
@@ -668,20 +677,19 @@ span.desktop-clients {
 .quotations {
 	position: absolute;
 	background-image:url("img/blockquotes.png");
+	background-size: 19px 14px;
 	width: 19px;
 	height: 14px;
 	margin-top: 55px;
 	margin-left: 254px;
 }
 
-.client {
-	
-}
 
-.clientBeard {
+.testimony .client {
 	position: relative;
-	background-image: url("img/bearded_client.png");
+	background-image: url("img/testimony_beard.png");
 	background-repeat: no-repeat;
+	background-size: 82px;
 	width: 182px;
 	height: 82px;
 	margin-left: 31px;
@@ -689,7 +697,7 @@ span.desktop-clients {
 	
 }
 
-.clientBeard h3 {
+.testimony .client h3 {
 	position: absolute;
 	font-family: "Source Sans Pro", sans-serif;
 	font-weight: bold;
@@ -700,7 +708,7 @@ span.desktop-clients {
 	margin-top: 22px;
 }
 
-.clientBeard h4 {
+.testimony .client h4 {
 	position: absolute;
 	font-family: "Droid Serif", serif;
 	font-weight: normal;
@@ -715,6 +723,9 @@ span.desktop-clients {
 	display: block;
 	margin-top: 23px;
 	margin-left: 160px;
+}
+
+.carousel img {
 	width: 40px;
 	height: 11px;
 }

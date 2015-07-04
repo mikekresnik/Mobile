@@ -643,14 +643,97 @@
 	}
 	
 /* SECTION 7 -- TESTIMONIALS */
+	.testimony {
+		background-image: url("img/testimony_background_desktop.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top center;
+		height: 550px;
+	}
+	
+	.profile1 {
+		display: inline-block;
+		width: 0px;
+	}
+	
+	.profile2 {
+		display: inline-block;
+		width: 0px;
+	}
+	
+	.testimony .client {
+		background-size: 100px;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
 	
 	
+	.quotebox {
+		display: inline-block;
+		background-size: 370px 144px;
+		width: 370px;
+		height: 144px;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
 	
+	.testimony p.quote {
+		padding-left: 12px;
+		padding-top: 29px;
+		padding-right: 23px;
+		font-size: 16px;
+	}
 	
+	.quotations {
+		background-image:url("img/blockquotes.png");
+		background-size: 23px 17px;
+		width: 23px;
+		height: 17px;
+		margin-top: 83px;
+		margin-left: 312px;
+	}
 	
+	.client h3 {
+		font size: 18px;
+		margin-left: 104px;
+		margin-top: 22px;
+	}
+
+	.client h4 {
+		font size: 18px;
+		margin-left: 104px;
+		margin-top: 47px;
+	}
 	
+	.carousel {
+		margin-top: 23px;
+		margin-left: 160px;
+	}
 	
+	.carousel img {
+		width: 40px;
+		height: 11px;
+	}
 	
+	.testimony h5 {
+		margin-top: 70px;
+		margin-left: 29px;
+		font-size: 30px;
+	}
+	
+	.testimony p.testimonial {
+		margin-top: 22px;
+		margin-left: 29px;
+		font-size: 18px;
+	}
+
+	.testimony a.button {
+		font-size: 18px;
+		padding: 24px 12px;
+		margin-top: 23px;	
+		margin-bottom: 49px;
+		margin-left: 30px;
+	}
 	
 }
 
