@@ -769,7 +769,8 @@ span.desktop-clients {
 
 .blog {
 	background-color: #f7f7f7;
-	font-color: #454545;
+	color: #454545;
+	text-align: center;
 }	
 
 .blog h3 {
@@ -798,6 +799,7 @@ span.desktop-clients {
     background-image: url("img/separator_black.png");
     background-repeat: no-repeat;
     background-position: center center;
+	background-size: 76px 6px;
     height: 7px;
 }
 
@@ -825,16 +827,41 @@ span.desktop-clients {
 
 .row1 {
 	margin-top: 35px;
-	margin-left: 13px;
 	position: relative;
 }
+
+.blogIconBg {
+	margin-top: -20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border: 5px solid #ebebeb;
+}
+
 
 .blog1 {
 	display: inline-block;
 	width: 160px;
 	height: 170px;
 	background-color: #ebebeb;
+}
+
+.blog1 > img {
+	width: 160px;
+}
+
+.blog1 > img.blogIconBg {
+	width: 30px;
+}
 	
+.blogIcon1 {
+	position: absolute;
+	margin-left: 9px;
+	margin-top: -11px;
+}
+
+.blog1 > img.blogIcon1 {
+	width: 20px;
 }
 
 .blog2 {
@@ -845,9 +872,26 @@ span.desktop-clients {
 	background-color: #ebebeb;
 }
 
+.blog2 img {
+	width: 160px;
+}
+
+.blog2 > img.blogIconBg {
+	width: 30px;
+}
+
+.blogIcon2 {
+	position: absolute;
+	margin-left: 14px;
+	margin-top: -10px;
+}
+
+.blog2 > img.blogIcon2 {
+	width: 12px;
+}
+
 .row2 {
 	margin-top: 35px;
-	margin-left: 13px;
 	position: relative;
 }
 
@@ -858,6 +902,24 @@ span.desktop-clients {
 	background-color: #ebebeb;
 }
 
+.blog3 img {
+	width: 160px;
+}
+
+.blog3 > img.blogIconBg {
+	width: 30px;
+}
+
+.blogIcon3 {
+	position: absolute;
+	margin-left: 12px;
+	margin-top: -9px;
+}
+
+.blog3 > img.blogIcon3 {
+	width: 17px;
+}
+
 .blog4 {
 	display: inline-block;
 	margin-left: 13px;
@@ -866,45 +928,22 @@ span.desktop-clients {
 	background-color: #ebebeb;
 }
 
-
-
-
-.blogIconBg {
-	postion: absolute;
-	margin-top: -20px;
-	margin-left: 60px;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	border: 5px solid #ebebeb;
+.blog4 img {
+	width: 160px;
 }
 
-.blogIcon1 {
-	position: absolute;
-	margin: 5px;
-	margin-top: -10px;
-	margin-left: 70px;
-}
-
-.blogIcon2 {
-	position: absolute;
-	margin: 5px;
-	margin-top: -10px;
-	margin-left: 74px;
-}
-
-.blogIcon3 {
-	position: absolute;
-	margin: 5px;
-	margin-top: -9px;
-	margin-left: 71.5px;
+.blog4 > img.blogIconBg {
+	width: 30px;
 }
 
 .blogIcon4 {
 	position: absolute;
-	margin: 5px;
+	margin-left: 11px;
 	margin-top: -9px;
-	margin-left: 71px;
+}
+
+.blog4 > img.blogIcon4 {
+	width: 18px;
 }
 
 .readMore {
@@ -912,7 +951,7 @@ span.desktop-clients {
 	width: 160px;
 	height: 30px;
 	background-color: #acd373;
-	margin-top: 46px;
+	margin-top: 43px;
 }
 
 .readMore a {
@@ -921,14 +960,13 @@ span.desktop-clients {
 	font-style: italic;
 	font-size: 8.3px;
 	color: #f7f7f7;
-	margin-left: 59px;
 	padding-top: 11px;
 	text-decoration: none;
 }
 
 .newsletter {
 	background-color: #acd373;
-	margin-top: 57px;
+	margin-top: 49px;
 }
 
 .newsletter p {
@@ -937,9 +975,8 @@ span.desktop-clients {
     font-size: 12px;
     color: #f7f7f7;
     font-weight: normal;
-	margin-left: 10px;
-	margin-top: 26px;
-	vertical-align: text-bottom;
+	line-height: 62px;
+	vertical-align: middle;
 }
 
 .emailForm {
@@ -959,10 +996,30 @@ span.desktop-clients {
 	padding-left: 0px;
 	padding-top: 0px;
 	margin-left: 11px;
-	margin-bottom: 18px;
 	text-align: center;
 	vertical-align: text-top;
 }
+
+::-webkit-input-placeholder {
+   color: #f7f7f7;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #f7f7f7;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #f7f7f7;  
+}
+
+:-ms-input-placeholder {  
+   color: #f7f7f7;  
+}
+
+.sendEmail {
+		display: inline-block;
+		vertical-align: middle;
+	}
 
 .send-button {
 	display: inline-block;
@@ -970,6 +1027,7 @@ span.desktop-clients {
 	background-image: url("img/newsletter_icon.png");
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-size: 17px 15px;
 	width: 30px;
 	height: 23.5px;
 	vertical-align: text-top;
@@ -982,7 +1040,42 @@ span.desktop-clients {
     background-color: #acd373;
 }
 
-	
+.contact > .content {
+	max-width: 302px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.map {
+	background-image: url("img/googlemap.jpg");
+	background-repeat: no-repeat;
+	background-size: 352%;
+	background-position: -532px -175px;
+	width: 100%;
+	height: 129px;
+	position: relative;
+	text-align: center;
+}
+
+.overlay:before {
+	position: absolute;
+	content: "See Map Details";
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 13px;
+	line-height: 129px;
+	vertical-align: middle;
+	font-weight: normal;
+	color: #f7f7f7;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	display: block;
+	z-index:0;
+	background-color: rgba(52,59,69,0.4);
+}
+
 .contact h3 {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 18px;
@@ -1010,29 +1103,24 @@ span.desktop-clients {
     background-image: url("img/separator_white.png");
     background-repeat: no-repeat;
     background-position: center center;
-    height: 7px;
+	background-size: 75px 7px;
+	height: 7px;
 }
 
 .contact p {
-	margin-top: 36px;
-	margin-left: 30px;
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	color: #f7f7f7;
+	text-align: justify;
 }
 
-.contact p2 {
+/*div.content p:nth-of-type(1) {
 	margin-top: 19px;
-	margin-left: 30px;
-	margin-bottom: 9px;
-	font-family: "Source Sans Pro", sans-serif;
-	font-size: 14px;
-	font-weight: normal;
-	color: #f7f7f7;
-}
+}*/
 
 .contact input {
+	display: inline-block;
 	border: 0;
 	background-color: #9abd67;
 	width: 287px;
@@ -1043,7 +1131,6 @@ span.desktop-clients {
     font-style: italic;
 	padding: 0;
 	padding-left: 13px;
-	margin-left: 30px;
 	margin-bottom: 19px;
 	margin-top: 9px;
 }
@@ -1061,13 +1148,16 @@ span.desktop-clients {
 	padding-left: 13px;
 	padding-top: 10px;
 	margin-top: 9px;
-	margin-left: 30px;
-	margin-bottom: 18px;
+	margin-bottom: 18px;	
+}
+
+.contact a {
+	display: inline-block;
+	text-align: center;
 }
 
 input.contact-button {
 	display: inline-block;
-	text-align: center;
 	width: 220px;
 	height: 32px;
 	border: 0;
@@ -1076,11 +1166,9 @@ input.contact-button {
     font-size: 11px;
     color: #f7f7f7;
     font-style: italic;	
-	margin-left: 71px;
 	margin-bottom: 45px;
 	cursor: pointer;
 }
-
 
 /* SECTION 10 -- FOOTER */
 
@@ -1089,10 +1177,22 @@ footer {
 	height: 100px;
 }
 
+footer .content {
+	max-width: 302px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 .social{
 	display: inline-block;
-	margin-left: 56px;
-	margin-top: 29px;
+	margin-left: 0px;
+	padding-top: 29px;
+}
+
+.social img {
+	width: 27px;
+	height: 26px;
 }
 
 footer p {
